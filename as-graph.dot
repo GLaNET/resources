@@ -1,0 +1,10 @@
+graph GLaNET
+{
+        edge [len=2];
+        graph [bgcolor=transparent]
+
+        AS64542 -- AS64544; // [label="1"];
+        AS64542 -- AS64544;
+        AS64542 -- AS64544;
+        AS64541 -- AS64542;
+}
