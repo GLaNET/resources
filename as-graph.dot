@@ -3,18 +3,13 @@ graph GLaNET
         edge [len=2];
         graph [bgcolor=transparent]
 
-        //AS64540 [shape=box];
-        //AS64540 [label="Caribou Route Server\nAS64540"];
-        //AS64540 -- AS64542;
-        //AS64540 -- AS64544;
-        //AS64540 -- AS64543;
-
         AS64542 -- AS64543;
-        AS64542 -- AS64544; // [label="1"];
+        AS64542 -- AS64544;
         AS64542 -- AS64545;
         AS64542 -- AS64546;
 
         AS64543 -- AS64544;
+        AS64543 -- AS64547;
 
         AS64544 -- AS64546;
         AS64544 -- AS64548;
