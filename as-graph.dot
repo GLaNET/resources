@@ -3,7 +3,7 @@ graph GLaNET
         edge [len=2];
         graph [bgcolor=transparent]
 
-        AS64542 [label="AS64542\nOxynux"];
+        AS64542 [label="AS64542\nalt.tf"];
         AS64543 [label="AS64543\nUniverse.tf"];
         AS64544 [label="AS64544\nChrooted Universe"];
         AS64545 [label="AS64545\nJohan Fleury"];
