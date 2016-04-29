@@ -3,7 +3,6 @@ graph GLaNET
         edge [len=2];
         graph [bgcolor=transparent]
 
-        AS64542 [label="AS64542\nAltNet"];
         AS64543 [label="AS64543\nUniverse.tf"];
         AS64544 [label="AS64544\nChrooted Universe"];
         AS64545 [label="AS64545\nJohan Fleury"];
@@ -11,11 +10,12 @@ graph GLaNET
         AS64547 [label="AS64547\nb0rk"];
         AS64548 [label="AS64548\ndboissat"];
         AS64550 [label="AS64550\natenart"];
+        AS202945 [label="AS202945\nAltNet"];
 
-        AS64542 -- AS64543;
-        AS64542 -- AS64544;
-        AS64542 -- AS64545;
-        AS64542 -- AS64546;
+        AS202945 -- AS64543;
+        AS202945 -- AS64544;
+        AS202945 -- AS64545;
+        AS202945 -- AS64546;
 
         AS64543 -- AS64544;
         AS64543 -- AS64547;
