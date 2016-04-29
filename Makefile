@@ -1,10 +1,7 @@
-DOT=dot
-FILES= $(addsuffix .png, $(basename $(wildcard *.dot)))
-
 %.png: %.dot
-	@$(DOT) -T png -o $@ $<
+	@dot -T png -o $@ $<
 
-all: $(FILES)
+all: $(addsuffix .png, $(basename $(wildcard *.dot)))
 
 clean:
-	@rm -f $(FILES)
+	@rm -f $(addsuffix .png, $(basename $(wildcard *.dot)))
