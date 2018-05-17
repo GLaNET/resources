@@ -8,7 +8,6 @@ graph GLaNET
         AS64545 [label="AS64545\nJohan Fleury"];
         AS64546 [label="AS64546\nGravitons"];
         AS64547 [label="AS64547\nb0rk"];
-        AS64548 [label="AS64548\ndboissat"];
         AS64550 [label="AS64550\natenart"];
         AS202945 [label="AS202945\nAltNet"];
 
@@ -17,12 +16,10 @@ graph GLaNET
         AS202945 -- AS64545;
         AS202945 -- AS64546;
 
-        AS64543 -- AS64544;
         AS64543 -- AS64547;
 
         AS64544 -- AS64545;
         AS64544 -- AS64546;
-        AS64544 -- AS64548;
         AS64544 -- AS64550;
 
         AS64545 -- AS64546;
