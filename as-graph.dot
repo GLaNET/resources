@@ -6,24 +6,21 @@ graph GLaNET
         AS64543 [label="AS64543\nUniverse.tf"];
         AS64544 [label="AS64544\nChrooted Universe"];
         AS64545 [label="AS64545\nJohan Fleury"];
-        AS64546 [label="AS64546\nGravitons"];
         AS64547 [label="AS64547\nb0rk"];
         AS64550 [label="AS64550\natenart"];
+        AS201281 [label="AS201281\nmazoyer.eu"];
         AS202945 [label="AS202945\nAltNet"];
 
         AS202945 -- AS64543;
         AS202945 -- AS64544;
         AS202945 -- AS64545;
-        AS202945 -- AS64546;
+        AS202945 -- AS201281;
 
         AS64543 -- AS64547;
 
         AS64544 -- AS64545;
-        AS64544 -- AS64546;
         AS64544 -- AS64550;
+        AS64544 -- AS201281;
 
-        AS64545 -- AS64546;
         AS64545 -- AS64547;
-
-        AS64546 -- AS64547;
 }
